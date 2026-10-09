@@ -33,6 +33,18 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- Ép toàn bộ máy chủ Tomcat nhúng chạy bản 11.0.26 an toàn -->
+			<dependency>
+				<groupId>org.apache.tomcat.embed</groupId>
+				<artifactId>tomcat-embed-core</artifactId>
+				<version>11.0.26</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.tomcat.embed</groupId>
+				<artifactId>tomcat-embed-websocket</artifactId>
+				<version>11.0.26</version>
+			</dependency>
+			
 			<!-- Ép toàn bộ dự án và các thư viện liên quan dùng bản com.fasterxml.jackson an toàn -->
 			<dependency>
 				<groupId>com.fasterxml.jackson</groupId>
