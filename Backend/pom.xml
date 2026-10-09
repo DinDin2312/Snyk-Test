@@ -31,37 +31,37 @@
 		<tomcat.version>11.0.25</tomcat.version>
 	</properties>
 
-<!--	<dependencyManagement>-->
-<!--		<dependencies>-->
-<!--			&lt;!&ndash; Ép toàn bộ dự án và các thư viện liên quan dùng bản com.fasterxml.jackson an toàn &ndash;&gt;-->
-<!--			<dependency>-->
-<!--				<groupId>com.fasterxml.jackson</groupId>-->
-<!--				<artifactId>jackson-bom</artifactId>-->
-<!--				<version>2.21.7</version>-->
-<!--				<type>pom</type>-->
-<!--				<scope>import</scope>-->
-<!--			</dependency>-->
-<!--			&lt;!&ndash; Ép toàn bộ dự án dùng bản tools.jackson thế hệ mới an toàn &ndash;&gt;-->
-<!--			<dependency>-->
-<!--				<groupId>tools.jackson</groupId>-->
-<!--				<artifactId>jackson-bom</artifactId>-->
-<!--				<version>3.1.7</version>-->
-<!--				<type>pom</type>-->
-<!--				<scope>import</scope>-->
-<!--			</dependency>-->
+	<dependencyManagement>
+		<dependencies>
+			<!-- Ép toàn bộ dự án và các thư viện liên quan dùng bản com.fasterxml.jackson an toàn -->
+			<dependency>
+				<groupId>com.fasterxml.jackson</groupId>
+				<artifactId>jackson-bom</artifactId>
+				<version>2.21.7</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<!-- Ép toàn bộ dự án dùng bản tools.jackson thế hệ mới an toàn -->
+			<dependency>
+				<groupId>tools.jackson</groupId>
+				<artifactId>jackson-bom</artifactId>
+				<version>3.1.7</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 
-<!--			<dependency>-->
-<!--				<groupId>ch.qos.logback</groupId>-->
-<!--				<artifactId>logback-classic</artifactId>-->
-<!--				<version>1.6.3</version>-->
-<!--			</dependency>-->
-<!--			<dependency>-->
-<!--				<groupId>ch.qos.logback</groupId>-->
-<!--				<artifactId>logback-core</artifactId>-->
-<!--				<version>1.6.3</version>-->
-<!--			</dependency>-->
-<!--		</dependencies>-->
-<!--	</dependencyManagement>-->
+			<dependency>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-classic</artifactId>
+				<version>1.6.3</version>
+			</dependency>
+			<dependency>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-core</artifactId>
+				<version>1.6.3</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 
 	<dependencies>
